@@ -71,7 +71,7 @@
     <div class="collapse navbar-collapse" id="navbarLinks">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 fs-5 font-danger">
         <li class="nav-item">
-          <a class="nav-link text-white fw-bold active" href="index.html"
+          <a class="nav-link text-white fw-bold active" href="index.php"
             >Home</a
           >
         </li>
