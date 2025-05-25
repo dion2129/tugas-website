@@ -27,7 +27,7 @@ include '../Component/header.php';
   <div class="row justify-content-center">
     <div class="col-md-4 mb-4">
       <div class="card border-0">
-        <img src="../Assets/image/Smiling female doctor in headscarf with offering gesture looking at the camera with space _ Premium Photo.jpg" class="card-img-top" alt="Dr. RAFDAH LONIA">
+        <img src= "../Assets/image/team/doctor-1.jpg" class="card-img-top" alt="Dr. RAFDAH LONIA">
         <div class="card-body">
           <h5 class="card-title fw-bold">DR. RAFDAH LONIA</h5>
           <p class="text-muted text-uppercase small">Bone Specialist</p>
@@ -37,7 +37,7 @@ include '../Component/header.php';
 
     <div class="col-md-4 mb-4">
       <div class="card border-0">
-        <img src="../Assets/image/Asian Thai medical male doctor.jpg" class="card-img-top" alt="Dr. Rag Jhon">
+        <img src="../Assets/image/team/doctor-2.jpg" class="card-img-top" alt="Dr. Rag Jhon">
         <div class="card-body">
           <h5 class="card-title fw-bold">DR. ALFRED SETYONO</h5>
           <p class="text-muted text-uppercase small">Eye Specialist</p>
@@ -47,7 +47,7 @@ include '../Component/header.php';
 
     <div class="col-md-4 mb-4">
       <div class="card border-0">
-        <img src="../Assets/image/Doctors care about patients_.jpg" class="card-img-top" alt="Dr. Tent Richardson">
+        <img src="../Assets/image/team/doctor-3.jpg" class="card-img-top" alt="Dr. Tent Richardson">
         <div class="card-body">
           <h5 class="card-title fw-bold">DR. TENT RICHARDSON</h5>
           <p class="text-muted text-uppercase small">Skin Specialist</p>
