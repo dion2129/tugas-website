@@ -85,7 +85,7 @@
           <a class="nav-link text-white" href="gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="team.html">Team</a>
+          <a class="nav-link text-white" href="team.php">Team</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="appointment.html">Appointment</a>
