@@ -33,8 +33,8 @@
             <i class="bi bi-envelope me-2 fs-4 px-3"></i>
             <div>
               <strong class="text-dark">Email</strong><br />
-              <a class="text-muted" href="mailto:info@medic.com"
-                >info@medic.com</a
+              <a class="text-muted" href="#"
+                >Klinik_Abadi@gmail.com</a
               >
             </div>
           </div>
@@ -44,12 +44,12 @@
             <i class="bi bi-telephone me-2 fs-4 px-3"></i>
             <div>
               <strong class="text-dark">Call Now</strong><br />
-              <span class="text-muted">+ (88017) - 123 - 4567</span>
+              <span class="text-muted">+ 0812 3456 7890</span>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb3 mt-2">
-          <a href="contact.html" class="btn btn-primary">Appointment</a>
+          <a href="appointment.php" class="btn btn-primary">Appointment</a>
         </div>
       </div>
     </div>
@@ -76,19 +76,16 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="about.html">About</a>
+          <a class="nav-link text-white" href="about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="service.html">Service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="gallery.html">Gallery</a>
+          <a class="nav-link text-white" href="Gallery.php">Gallery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="team.php">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="appointment.html">Appointment</a>
+          <a class="nav-link text-white" href="appointment.php">Appointment</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -103,28 +100,9 @@
             Blogs
           </a>
           <ul class="dropdown-menu fade" aria-labelledby="blogDropdown">
-            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="blogs.php">Blog</a></li>
             <li>
-              <a class="dropdown-item" href="blog-details.html">Blog Details</a>
-            </li>
-            <li class="dropend">
-              <a
-                class="dropdown-item dropdown-toggle"
-                href="#"
-                id="submenuDropdown"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Sub Menu
-              </a>
-              <ul class="dropdown-menu fade" aria-labelledby="submenuDropdown">
-                <li>
-                  <a class="dropdown-item" href="index.html">Submenu 01</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="index.html">Submenu 02</a>
-                </li>
-              </ul>
+              <a class="dropdown-item" href="blogs-detail2.php">Blog Details</a>
             </li>
           </ul>
         </li>
@@ -149,4 +127,55 @@
       bsDropdown.hide();
     });
   });
+
+document.addEventListener("DOMContentLoaded", function() {
+  // 1. Dapatkan path URL saat ini
+  const currentLocation = window.location.pathname;
+
+  // 2. Pilih semua link di dalam navbar
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+  // 3. Loop melalui setiap link
+  navLinks.forEach(link => {
+    const linkLocation = new URL(link.href).pathname;
+
+    // 4. Hapus kelas 'active' dan 'fw-bold' terlebih dahulu (reset)
+    link.classList.remove('active', 'fw-bold');
+    link.removeAttribute('aria-current'); // Hapus atribut aksesibilitas
+
+    // 5. Bandingkan path link dengan path saat ini
+    // Kita cek apakah path saat ini SAMA DENGAN path link
+    // Atau jika path saat ini adalah '/' (halaman utama) dan link adalah 'index.html'
+    if ((linkLocation === currentLocation) || 
+        (currentLocation === '/' && linkLocation.includes('index.html'))) {
+      
+      // 6. Jika cocok, tambahkan kelas 'active' dan 'fw-bold'
+      link.classList.add('active', 'fw-bold');
+      link.setAttribute('aria-current', 'page'); // Tambah atribut aksesibilitas
+
+      // 7. [Opsional] Jika link ada di dalam dropdown, buat dropdown-nya juga aktif
+      const parentDropdown = link.closest('.nav-item.dropdown');
+      if (parentDropdown) {
+        const dropdownToggle = parentDropdown.querySelector('.dropdown-toggle');
+        if (dropdownToggle) {
+          dropdownToggle.classList.add('active', 'fw-bold');
+        }
+      }
+    }
+  });
+
+  // Kasus Khusus: Jika tidak ada yang cocok (misalnya di halaman utama '/'), 
+  // dan ada link Home ke '/index.html', aktifkan link Home.
+  const homeLink = document.querySelector('.navbar-nav .nav-link[href*="index.html"]');
+  const isActive = document.querySelector('.navbar-nav .nav-link.active');
+  if (!isActive && homeLink && currentLocation === '/') {
+       homeLink.classList.add('active', 'fw-bold');
+       homeLink.setAttribute('aria-current', 'page');
+  }
+});
+
+
+
 </script>
+
+

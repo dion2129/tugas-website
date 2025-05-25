@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Team</title>
-  <link rel="icon" href="../Assets/images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../plugins/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body class="h-100">
 <?php

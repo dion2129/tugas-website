@@ -4,17 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kunjungan Edukatif ke Klinik Abadi</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../plugins/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body class="bg-light">
-
-  <!-- Hero Section -->
-  <div class="bg-dark text-white text-center py-5 mb-4">
-    <div class="container">
-      <h1 class="display-4 fw-bold">Kesehatan Modern dan Terpercaya Klinik Abadi</h1>
-      <p class="lead mb-0">Diposting oleh <strong>Kelompok 3</strong> pada 25 Mei 2025</p>
-    </div>
-  </div>
+<?php
+  include "../component/header.php"
+?>
 
   <!-- Main Content -->
   <div class="container">

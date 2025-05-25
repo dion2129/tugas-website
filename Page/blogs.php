@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Blog</title>
-  <!-- Bootstrap 5 CSS CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Blogs</title>
+  <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../plugins/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <header class="bg-dark py-3 mb-4">
-    <div class="container">
-      <h1 class="text-white text-center">Blog Klinik Abadi</h1>
-    </div>
-  </header>
+<?php
+  include "../component/header.php"
+?>
+
 
   <main class="container">
     <!-- Hero Section -->

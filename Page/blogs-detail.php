@@ -5,16 +5,14 @@
   <meta charset="UTF-8">
   <title>Blog Detail</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../plugins/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
-  <!-- Header -->
-  <header class="bg-dark py-3 mb-4">
-    <div class="container">
-      <h1 class="text-white text-center">Blog Details</h1>
-    </div>
-  </header>
+<?php
+  include "../component/header.php"
+?>
 
   <!-- Content -->
   <main class="container">
