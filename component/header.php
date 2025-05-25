@@ -23,7 +23,7 @@
         <h4 class="mb-0">Medic</h4>
       </div>
       <!-- <a href="index.html">
-        <img src="images/logo.png" class="img-fluid" alt="logo">
+        <img src="../Assets/images/logo.png" class="img-fluid" alt="logo">
       </a> -->
     </div>
     <div class="col-lg-8 text-info">
