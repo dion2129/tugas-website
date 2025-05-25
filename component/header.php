@@ -23,7 +23,7 @@
         <h4 class="mb-0">Medic</h4>
       </div>
       <!-- <a href="index.html">
-        <img src="images/logo.png" class="img-fluid" alt="logo">
+        <img src="../Assets/images/logo.png" class="img-fluid" alt="logo">
       </a> -->
     </div>
     <div class="col-lg-8 text-info">
@@ -71,7 +71,7 @@
     <div class="collapse navbar-collapse" id="navbarLinks">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 fs-5 font-danger">
         <li class="nav-item">
-          <a class="nav-link text-white fw-bold active" href="index.html"
+          <a class="nav-link text-white fw-bold active" href="index.php"
             >Home</a
           >
         </li>
@@ -85,7 +85,7 @@
           <a class="nav-link text-white" href="gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="team.html">Team</a>
+          <a class="nav-link text-white" href="team.php">Team</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="appointment.html">Appointment</a>

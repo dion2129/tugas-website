@@ -186,7 +186,7 @@
       </div>
       <ul class="list-inline mb-0">
         <li class="list-inline-item">
-          <a href="index.html" class="text-white-50 text-decoration-none">Home</a>
+          <a href="index.php" class="text-white-50 text-decoration-none">Home</a>
         </li>
         <li class="list-inline-item">
           <a href="about.html" class="text-white-50 text-decoration-none"
