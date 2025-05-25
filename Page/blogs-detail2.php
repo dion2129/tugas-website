@@ -17,29 +17,29 @@
   <div class="container">
     <div class="card shadow-lg border-0 mb-5">
       <div class="card-body">
-        <h2 class="card-title mb-4">Klinik Abadi</h2>
+        <h2 class="card-title mb-4">Eternal Clinic</h2>
 
       <p>
-        Klinik Abadi merupakan fasilitas layanan kesehatan yang berkomitmen untuk memberikan pelayanan medis terbaik kepada masyarakat. Kami mengutamakan kenyamanan, kecepatan, dan ketepatan dalam setiap tindakan medis yang kami lakukan.
+        Abadi Clinic is a health care facility that is committed to providing the best medical services to the community. We prioritize comfort, speed, and accuracy in every medical action we take.
       </p>
       <p>
-        Dengan dukungan tenaga medis profesional dan sistem digital yang terintegrasi, Klinik Abadi mampu melayani pasien dengan lebih efisien. Proses registrasi dilakukan secara elektronik, dan seluruh data pasien tersimpan aman dalam sistem rekam medis digital kami.
+        With the support of professional medical personnel and an integrated digital system, Klinik Abadi is able to serve patients more efficiently. The registration process is done electronically, and all patient data is stored safely in our digital medical record system.
       </p>
       <p>
-        Kami juga menggunakan sistem antrian elektronik untuk memastikan pelayanan berjalan tertib dan teratur. Setiap pasien dapat menikmati layanan tanpa harus menunggu lama.
+        We also use an electronic queuing system to ensure orderly and organized service. Every patient can enjoy the service without having to wait long.
       </p>
       <p>
-        Dalam operasional harian, Klinik Abadi senantiasa mengadopsi teknologi terkini untuk mendukung pelayanan, termasuk software klinik yang memudahkan manajemen data, jadwal pemeriksaan, hingga pemantauan riwayat pasien.
+        In daily operations, Abadi Clinic always adopts the latest technology to support services, including clinical software that facilitates data management, examination schedules, and monitoring patient history.
       </p>
       <p>
-        Sebagai bagian dari komitmen kami dalam edukasi masyarakat, Klinik Abadi juga menerima kunjungan edukatif dari institusi pendidikan guna berbagi pengetahuan dan praktik terbaik di bidang layanan kesehatan.
+        As part of our commitment to community education, Klinik Abadi also welcomes educational visits from educational institutions to share knowledge and best practices in healthcare.
       </p>
 
         <figure class="mt-5">
           <blockquote class="blockquote">
-            <p>"Ayo Datang Ke Klinik Abadi"</p>
+            <p>"Come to Abadi Clinic"</p>
           </blockquote>
-            <a href="blogs.php" class="btn btn-secondary mt-3">← Kembali ke Blog</a>
+            <a href="blogs.php" class="btn btn-secondary mt-3">← Back to Blog</a>
         </figure>
       </div>
     </div>
@@ -48,7 +48,7 @@
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
     <div class="container">
-      <p class="mb-0">&copy; 2025 Klinik Abadi. Dibuat oleh Kelompok 3.</p>
+      <p class="mb-0">&copy; 2025 Eternal Clinic. Created by Group 3.</p>
     </div>
   </footer>
 

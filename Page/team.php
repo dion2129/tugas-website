@@ -13,8 +13,8 @@
 include '../Component/header.php';
 ?>
 <div class="container text-center py-5">
-  <h2><strong>Tim</strong> Hebat</h2>
-  <p class="text-muted">Memanfaatkan kerangka kerja yang gesit untuk memberikan ringkasan yang kuat atas gambaran tingkat tnggi. Pendekatan iteratif digunakan digunakan untuk strategi perusahaan...</p>
+  <h2><strong>Tim</strong> Great</h2>
+  <p class="text-muted">An agile framework is leveraged to provide a concise high-level summary, while an iterative approach guides corporate strategy.</p>
 
   <!-- Buttons -->
   <div class="d-flex justify-content-center gap-2 my-4 flex-wrap">
