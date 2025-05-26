@@ -12,7 +12,7 @@
 <?php
   include "../component/header.php"
 ?>
-
+<!--  -->
   <!-- Main Content -->
   <div class="container">
     <div class="card shadow-lg border-0 mb-5">

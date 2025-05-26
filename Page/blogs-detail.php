@@ -13,7 +13,7 @@
 <?php
   include "../component/header.php"
 ?>
-
+<!--  -->
   <!-- Content -->
   <main class="container">
     <article class="mb-5">

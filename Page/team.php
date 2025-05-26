@@ -10,6 +10,7 @@
 </head>
 <body class="h-100">
 <?php
+// 
 include '../Component/header.php';
 ?>
 <div class="container text-center py-5">

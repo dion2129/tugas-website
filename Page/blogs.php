@@ -52,7 +52,7 @@
           <h4 class="fst-italic">About</h4>
           <p>This simple blog was created to share information and tips about health. Please customize it according to your needs!</p>
         </div>
-
+<!--  -->
         <div class="p-3">
           <h4 class="fst-italic">Document Archive</h4>
           <ol class="list-unstyled">

@@ -144,7 +144,7 @@
           </p>
         </div>
     </div>
-
+<!--  -->
     <div class="col-md-6 d-flex align-items-start">
         <div class="flex-shrink-0 me-3">
              <img src="../Assets/image/resource/4.png" width="60" alt="General Treatment Icon">

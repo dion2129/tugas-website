@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../plugins/node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
+<!--  -->
 <!-- videeo -->
 <body>
 <?php

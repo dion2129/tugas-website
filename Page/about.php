@@ -13,6 +13,7 @@
   </head>
   <body>
     <?php
+    // 
   include '../component/header.php';
     ?>
     <main class="container">
